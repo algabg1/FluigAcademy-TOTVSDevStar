@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="local"></p>
+        <p id="bemVindo"></p>
+
+        <script>
+            var carros = ["Fusca", "Kombi", "Fiat 147"];
+            document.getElementById("local").innerHTML = carros[0];
+
+            var nome = "teste";
+
+            if(nome == "Wilson"){
+                document.getElementById("bemVindo").innerHTML = "Olá, Wilson!";
+            } else{
+                document.getElementById("bemVindo").innerHTML = "Não é o Wilson!";
+            }
+        </script>
+    </body>
+</html>
